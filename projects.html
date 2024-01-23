@@ -1,0 +1,315 @@
+
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+      <meta
+         name="description"
+         content="Unlock career opportunities with our sleek digital Resume template." />
+      <link href="./styles.css" rel="stylesheet" />
+      <script
+         defer
+         src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
+      <title>Resume – Digital Resume Template</title>
+   </head>
+   <body class="fb xb cc">
+      <div class="k l _ rb lg:mc">
+         <div class="r ca la lg:nc">
+            <!-- SIDEBAR -->
+            <div class="ra">
+               <!-- USER -->
+               <div class="sa wa ib">
+                  <div class="sa c e">
+                     <img
+                        src="./assets/images/cover.jpg"
+                        alt=""
+                        class="mb nb" />
+
+                     <div
+                        class="p ga jb kb pb">
+                        <img
+                           src="./assets/images/photo.jpg"
+                           alt=""
+                           class="ua xa bb mb nb dc u" />
+                     </div>
+                  </div>
+
+                  <div class="ra ob.5">
+                     <div class="rb">
+                        <h3
+                           class="p ha na wb zb">
+                            Riaz Ahammed
+
+                           <div
+                              class="aa ba ua ob eb">
+                              <div
+                                 class="ua s.5 db"></div>
+                           </div>
+                        </h3>
+
+                        <div class="n p ha na">
+                           <p>Full Stack Developer</p>
+                           <svg
+                              viewBox="0 0 2 2"
+                              width="3"
+                              height="3"
+                              aria-hidden="true"
+                              class="lb">
+                              <circle cx="1" cy="1" r="1" />
+                           </svg>
+                           <p>BD</p>
+                        </div>
+                     </div>
+
+                     <div
+                        class="ra va hb pb">
+                        <p class="ac">
+                           Full-stack developer with 1+ years of experience in
+                           building web apps. Skilled in React, Node.js, ExpressJs, JavaScript, MongoDb,
+                        </p>
+
+                        <div
+                           x-data="skills"
+                           class="p ea ka">
+                           <template x-for="skill in skills">
+                              <span
+                                 class="q ha ta gb qb sb yb zb ac"
+                                 x-text="skill"></span>
+                           </template>
+                        </div>
+
+                        <a
+                           href="#"
+                           class="q x ha ia oa va cb rb tb.5 zb bc ec hover:gc"
+                           >Download Resume
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              class="w">
+                              <path
+                                 fill="currentColor"
+                                 d="M13 10h5l-6 6l-6-6h5V3h2zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2z" /></svg></a>
+                     </div>
+                  </div>
+               </div>
+               <!--// USER -->
+
+               <!-- ABOUT -->
+               <div class="wa ib ob.5">
+                  <h2
+                     class="p ha na.5 rb ub.5 wb zb before:tw-h-1.5 before:tw-w-1.5 before:tw-rounded-full before:tw-bg-blue-600">
+                     About me
+                  </h2>
+
+                  <div
+                     class="o ra va hb pb">
+                     <div
+                        class="a b ac prose-gray">
+                        <p>
+                           I am passionate about using technology to solve
+                           real-world problems. I am always looking for new ways
+                           to improve the user experience and make software more
+                           accessible to everyone. I am also a strong advocate
+                           for open source software and I am always willing to
+                           contribute to the community.
+                        </p>
+                     </div>
+
+                     <hr class="ab" />
+
+                     <div class="p ea la">
+                        <a
+                           href="riaz-ahammed.netlify.app/"
+                           class="q ha na group">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              class="w">
+                              <path
+                                 fill="currentColor"
+                                 d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z" />
+                           </svg>
+                           <span
+                              class="zb group-hover:hc group-hover:ic">
+                              riaz-ahammed.netlify.app/
+                           </span>
+                        </a>
+
+                        <a
+                           href="#"
+                           class="q ha na group">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              class="w">
+                              <path
+                                 fill="currentColor"
+                                 d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1m17 4.238l-7.928 7.1L4 7.216V19h16zM4.511 5l7.55 6.662L19.502 5z" />
+                           </svg>
+                           <span
+                              class="zb group-hover:hc group-hover:ic">
+                              riazahammed9191@gmail.com
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <!--// ABOUT -->
+
+               <!-- INFORMATION -->
+               <div class="wa ib ob.5">
+                  <h2
+                     class="p ha na.5 rb ub.5 wb zb before:tw-h-1.5 before:tw-w-1.5 before:tw-rounded-full before:tw-bg-blue-600">
+                     Information
+                  </h2>
+
+                  <div class="o va hb pb">
+                     <ul x-data="details" class="j.5">
+                        <template x-for="item in details">
+                           <li
+                              class="p ja oa ya tb.5 last:fc">
+                              <span
+                                 class="ac"
+                                 x-text="item.label"></span
+                              ><span x-text="item.value"></span>
+                           </li>
+                        </template>
+                     </ul>
+                  </div>
+               </div>
+               <!--// INFORMATION -->
+            </div>
+            <!-- // SIDEBAR -->
+
+            <div class="ra lg:lc">
+               <!-- NAVIGATION -->
+               <nav
+                  class="g h i x wa ib ob.5">
+                  <div
+                     x-data="navigation"
+                     class="p ja ma.5">
+                     <template x-for="link in navigation">
+                        <a
+                           x-bind:href="link.href"
+                           :class="link.href === './projects.html' ? '_b hb': 'ac'"
+                           class="q x ia va rb tb.5 zb ec hover:hb hover:_b"
+                           x-text="link.name">
+                        </a>
+                     </template>
+                  </div>
+               </nav>
+               <!--// NAVIGATION -->
+
+               <!-- CONTENT -->
+               <main class="ra">
+                  <!-- PROJECTS -->
+                  <div class="wa ib ob.5">
+                     <h2
+                        class="p ha na.5 rb ub.5 wb zb before:tw-h-1.5 before:tw-w-1.5 before:tw-rounded-full before:tw-bg-blue-600">
+                        Projects
+                     </h2>
+
+                     <div x-data="projectsList" class="o qa.5">
+                        <template x-for="project in projectsList">
+                           <div
+                              class="va hb pb ec hover:fb">
+                              <div
+                                 class="p da la sm:kc">
+                                 <img
+                                    x-bind:src="project.icon"
+                                    alt=""
+                                    class="ua xa bb dc t" />
+
+                                 <div class="x">
+                                    <h3
+                                       class="zb"
+                                       x-text="project.name"></h3>
+
+                                    <div
+                                       class="n.5 p ea ha oa pa ac">
+                                       <div
+                                          class="p ha ma.5">
+                                          <svg
+                                             xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 24 24"
+                                             class="v.5">
+                                             <path
+                                                fill="currentColor"
+                                                d="M3.087 9h17.826a1 1 0 0 1 .997 1.083l-.833 10a1 1 0 0 1-.997.917H3.92a1 1 0 0 1-.996-.917l-.834-10A1 1 0 0 1 3.087 9M4.84 19h14.32l.667-8H4.174zm8.574-14H20a1 1 0 0 1 1 1v1H3V4a1 1 0 0 1 1-1h7.414z" />
+                                          </svg>
+                                          <span
+                                             class="yb zb"
+                                             x-text="project.category"></span>
+                                       </div>
+
+                                       <div
+                                          class="p ha ma.5">
+                                          <svg
+                                             xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 24 24"
+                                             class="v.5">
+                                             <path
+                                                fill="currentColor"
+                                                d="M20 22h-2v-2a3 3 0 0 0-3-3H9a3 3 0 0 0-3 3v2H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5zm-8-9a6 6 0 1 1 0-12a6 6 0 0 1 0 12m0-2a4 4 0 1 0 0-8a4 4 0 0 0 0 8" />
+                                          </svg>
+                                          <span
+                                             class="yb zb"
+                                             x-text="project.role"></span>
+                                       </div>
+
+                                       <div
+                                          class="p ha ma.5">
+                                          <svg
+                                             xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 24 24"
+                                             class="v.5">
+                                             <path
+                                                fill="currentColor"
+                                                d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z" />
+                                          </svg>
+                                          <span
+                                             class="yb zb"
+                                             x-text="project.date"></span>
+                                       </div>
+                                    </div>
+
+                                    <p
+                                       class="o y ac"
+                                       x-text="project.description"></p>
+
+                                    <a
+                                       x-bind:href="project.website"
+                                       class="o q ha na _b group"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                       <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          viewBox="0 0 24 24"
+                                          class="w">
+                                          <path
+                                             fill="currentColor"
+                                             d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z" />
+                                       </svg>
+                                       <span
+                                          class="zb group-hover:hc group-hover:underline-offset-4"
+                                          x-text="project.website">
+                                       </span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </template>
+                     </div>
+                  </div>
+                  <!--// PROJECTS -->
+               </main>
+               <!--// CONTENT -->
+            </div>
+         </div>
+      </div>
+
+      <script src="./data.js"></script>
+   </body>
+</html>
